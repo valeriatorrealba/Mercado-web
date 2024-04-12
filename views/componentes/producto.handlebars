@@ -1,0 +1,10 @@
+{{!-- 3.Crear un parcial “producto” que contenga el template correspondiente a la
+presentación de cada producto en el Dashboard y reciba como parámetro el nombre
+del producto.  --}}
+
+<div class="card mx-5 border-0 my-3 opacity-75 fruta" style="width: 15rem;" id="producto-{{this}}">
+    <div class="card-body">
+        <h5 class="card-title">{{this}}</h5>  
+        <img src="/img/{{this}}.png" class="card-img-top producto-img" alt="{{this}}" data-producto="{{this}}">
+    </div>
+</div>

@@ -1,0 +1,20 @@
+{{!-- 2. Incluir en la vista un parcial que contenga el menú del sitio web y sea renderizado
+antes del Dashboard. --}}
+
+{{!-- Menu --}}
+<nav class="navbar bg-success justify-content-center">
+    <button id="carrito" type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    <i class="fa-solid fa-cart-shopping text-light fs-2"></i>  
+</button>
+</nav>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+        <div class="modal-body">
+            <div id="productosCarrito" class="d-flex flex-wrap justify-content-start mx-3"></div>
+        </div>
+        </div>
+    </div>
+</div>

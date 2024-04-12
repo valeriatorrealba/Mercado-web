@@ -1,0 +1,13 @@
+{{!-- 4. Crear un parcial para la sección principal en donde se renderice un helper con el
+mensaje de bienvenida y se realice una iteración para renderizar un parcial “producto”
+pasándole como argumento el nombre de cada producto. --}}
+
+<h1 class="text-center p-3">{{ mensaje }}</h1>
+
+<div class="container">
+    <div class="row justify-content-center">
+        {{#each producto}}
+            {{> producto}}
+        {{/each}}
+    </div>
+</div>
