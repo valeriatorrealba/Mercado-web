@@ -51,7 +51,6 @@ Para el control de datos, puedes utilizar diversas herramientas como LocalStorag
 - **jQuery**: Biblioteca de JavaScript para simplificar la manipulación del DOM y eventos.
 - **npm**: Para la gestión de dependencias.
 
-
 ## Autor
 
 Este proyecto fue desarrollado por **Valeria Torrealba**.
